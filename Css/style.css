@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000000;  
+    background: -webkit-linear-gradient(to right, #3575a0, #ffffff); 
+    background: linear-gradient(to right, #3575a0, #ffffff);
+}
+
+main{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .row{
+    width: 90%;
+    height: 45vh;
+    background-image: url('https://thumbs.dreamstime.com/z/textura-horizontal-natural-del-fondo-campo-de-la-margarita-manzanilla-para-belleza-salud-122979046.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.container .row .col-100{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    color: #f7f5f5;
+    background: -webkit-linear-gradient(to right, #0988c4, #5fad69); 
+    background: linear-gradient(to right, #0988c4, #5fad69);
+    font-size: 4,0rem;
+    font-family: Courier, "Lucida Console", monospace;
+}
+.container .row .col-100 h2{
+    margin-top: 0px;
+    color: rgba(255, 255, 255, 0.699);
+    margin-bottom: 0px;
+    font-family: Courier, "Lucida Console", monospace;
+    font-size: 1.0rem;
+    text-decoration: uppercase;
+    letter-spacing: 5px;
+}
+
+.container .row .col-100 div input{
+   padding: 7px 30px;
+   border-radius: 10px; 
+   border: none;
+   outline: none;
+   font-family: Courier, "Lucida Console", monospace;
+   font-size: 16px;
+   font-weight: 700;
+   letter-spacing: 3px;
+}
+
+.container .row .col-100 div button{
+    padding: 7px 30px;
+    border-radius: 10px; 
+    border: none;
+    outline: none;
+    font-family: Courier, "Lucida Console", monospace;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    cursor: pointer;
+    background-color: #000000;  
+    background: -webkit-linear-gradient(to right, #0988c4, #5fad69); 
+    background: linear-gradient(to right, #0988c4, #5fad69);
+    color: white;
+}
+.container .row .col-100 div button:hover{
+       color: #000000;  
+       background: -webkit-linear-gradient(to right, #5c0f9b, #fafafa); 
+       background: linear-gradient(to right, #5c0f9b, #f7f5f5);
+       background-color: white;
+}
+
+.container .row .col-100 p{
+    color: #fcfcfc;  
+    font-size: 4,0rem;
+    font-family: Courier, "Lucida Console", monospace;
+    text-align: center;
+}
+
